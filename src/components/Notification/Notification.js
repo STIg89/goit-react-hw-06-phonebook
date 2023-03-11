@@ -11,7 +11,7 @@ export const Notification = name => {
 };
 
 export const noContactsNotify = () => {
-  return Notify.info(`There is no contacts here`, {
+  return Notify.info(`There are no contacts here`, {
     timeout: 2000,
     fontSize: '22px',
     position: 'center-center',
@@ -20,7 +20,7 @@ export const noContactsNotify = () => {
 };
 
 export const noMatchesNotify = () => {
-  return Notify.info(`There is no matches`, {
+  return Notify.info(`There are no matches`, {
     timeout: 2000,
     fontSize: '22px',
     position: 'center-center',
